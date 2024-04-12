@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,9 +6,11 @@ function App() {
 
   return (
     <>
-      <div className="header">
-      <i className="fa-solid fa-bars"></i>
-      <i className="fa-brands fa-youtube"></i>
+      <div className=" flex items-center">
+      <i className="fa-solid fa-bars mx-2 text-xl"></i>
+      <i className="fa-brands fa-youtube text-3xl text-red-500 mx-2"></i>
+      <h2 text-red-500>Youtube</h2>
+
       </div>
     </>
   )
